@@ -20,6 +20,8 @@ Quality assurance is embedded in the pipeline: unit and integration tests, endâ€
 - [Release & Deployment Guide](octoacme-release-and-deployment.md)
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
 - [Roles and Personas](octoacme-roles-and-personas.md)
+- [Operational Checklists](octoacme-checklists.md)
+- [Onboarding Notes](octoacme-onboarding-notes.md)
 
 ## Using These Docs with Copilot Spaces
 
