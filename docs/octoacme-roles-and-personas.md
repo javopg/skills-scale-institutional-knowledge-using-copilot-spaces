@@ -75,108 +75,121 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
-## Scrum Master
+## QA / Testing
 
 ### Role Summary
-Scrum Masters facilitate agile ceremonies, remove impediments, and coach the team on Scrum practices. They ensure the team follows agreed processes while fostering continuous improvement.
+QA ensures product quality through test planning, execution, and verification against acceptance criteria.
 
 ### Responsibilities
-- Facilitate daily standups, sprint planning, reviews, and retrospectives
-- Remove blockers and impediments that slow team velocity
-- Coach team members on agile best practices and self-organization
-- Track sprint metrics (velocity, burndown) and surface improvement opportunities
-- Shield the team from unplanned interruptions and scope changes
+- Define test plans and test cases for features
+- Maintain and expand automated and manual test suites
+- Validate acceptance criteria and report regressions
+- Coordinate release testing with engineering and PM
 
-### Typical Interactions
-- Works closely with **PM** on sprint planning and release coordination
-- Partners with **PdM** to ensure backlog is ready and refined
-- Collaborates with **Developers** to identify and remove blockers
-- Engages **QA** to ensure testing is integrated into the sprint flow
-- Communicates impediments and risks to **Stakeholders** as needed
+### Typical Communication
+- Test results in PRs and release notes
+- Weekly QA syncs with Developers and PM
+- Blocker reporting and triage in standups
 
 ---
 
-## UX/UI Designer
+## Stakeholders
+
+(As existing)
+
+---
+
+## Scrum Master
 
 ### Role Summary
-UX/UI Designers define user flows, create wireframes and prototypes, and ensure products are intuitive and accessible. They advocate for user needs throughout the product lifecycle.
+The Scrum Master supports the delivery team by facilitating agile ceremonies, removing impediments, and coaching on flow and continuous improvement.
 
 ### Responsibilities
-- Conduct user research and create personas
-- Design wireframes, mockups, and interactive prototypes
-- Collaborate with engineering to ensure designs are feasible and implemented correctly
-- Run usability tests and gather feedback to iterate on designs
-- Maintain design systems and accessibility standards
+- Facilitate standups, sprint planning, reviews, and retrospectives
+- Help the team remove impediments and improve processes
+- Coach on agile practices and the Definition of Done
+- Track and help improve team flow and cycle time
 
 ### Typical Interactions
-- Partners with **PdM** to understand requirements and user problems
-- Works with **Developers** during implementation to clarify design intent
-- Coordinates with **QA** on usability and accessibility testing
-- Presents designs to **Stakeholders** for feedback and approval
-- Collaborates with **PM** on timelines and design milestones
+- With PM/PdM: surface process impediments, support sprint commitments
+- With Developers: remove blockers and optimize flow
+- With QA: ensure test readiness for sprints and releases
+- With Stakeholders: communicate team capacity and cadence
+
+---
+
+## UX / UI Designer
+
+### Role Summary
+Designs user interactions and visuals, validates usability, and ensures the product is accessible and coherent.
+
+### Responsibilities
+- Conduct user research and create design artifacts (wireframes, prototypes)
+- Define UX acceptance criteria and collaborate on UX testing
+- Deliver design assets and specs to engineering
+- Iterate on designs based on user feedback and metrics
+
+### Typical Interactions
+- With PdM: align on user needs and success metrics
+- With Developers: hand off assets, clarify implementation details
+- With QA: support usability testing and acceptance checks
+- With Stakeholders: present UX tradeoffs and research findings
 
 ---
 
 ## Technical Writer
 
 ### Role Summary
-Technical Writers create and maintain documentation for users, developers, and internal teams. They ensure documentation is clear, accurate, and accessible.
+Produces and maintains user-facing and developer-facing documentation so knowledge is discoverable and accurate.
 
 ### Responsibilities
-- Write user guides, API documentation, and internal process docs
-- Collaborate with developers to understand features and technical details
-- Maintain documentation standards and style guides
-- Review and update docs when features change or issues are found
-- Organize documentation for discoverability and searchability
+- Draft release notes, onboarding guides, and user docs
+- Maintain internal runbooks and API documentation
+- Coordinate with Developers, QA, and PdM to verify accuracy
+- Ensure documentation follows repo conventions and is versioned
 
 ### Typical Interactions
-- Works with **Developers** to document features, APIs, and technical details
-- Coordinates with **PdM** to understand feature scope and user needs
-- Partners with **QA** to validate accuracy of documentation
-- Collaborates with **PM** to align documentation timelines with releases
-- Shares drafts with **Stakeholders** for review and feedback
+- With Developers: gather technical details and code references
+- With QA: ensure documented test scenarios match behavior
+- With PdM/PM: align on messaging for releases and onboarding materials
 
 ---
 
 ## QA Lead
 
 ### Role Summary
-QA Leads define testing strategy, coordinate testing efforts, and ensure quality standards are met before releases. They balance thoroughness with speed to support iterative delivery.
+Drives QA strategy, ensures test coverage and release readiness across teams.
 
 ### Responsibilities
-- Define test plans, cases, and acceptance criteria
-- Coordinate manual and automated testing efforts across the team
-- Identify and triage bugs, tracking them to resolution
-- Ensure CI/CD pipelines include adequate test coverage
-- Advocate for quality gates and non-functional requirements (performance, security, accessibility)
+- Define QA approach for projects (automation vs manual)
+- Coordinate QA resources and schedule testing windows
+- Own test metrics and release quality gates
+- Mentor testers and improve QA practices
 
 ### Typical Interactions
-- Partners with **PdM** to clarify acceptance criteria and edge cases
-- Works closely with **Developers** on test automation and bug fixes
-- Coordinates with **PM** on release readiness and go/no-go decisions
-- Collaborates with **Scrum Master** to integrate testing into sprint flow
-- Reports quality metrics and risks to **Stakeholders**
+- With PM: confirm release readiness and test schedules
+- With Developers: prioritize defect fixes and testability
+- With PdM: ensure acceptance criteria map to test cases
+- With Stakeholders: report on quality status and known issues
 
 ---
 
 ## Business Analyst
 
 ### Role Summary
-Business Analysts bridge business needs and technical solutions. They gather requirements, analyze data, and help teams understand the problem space and measure success.
+Translates business needs into clear requirements and acceptance criteria to reduce ambiguity and rework.
 
 ### Responsibilities
-- Elicit and document business requirements from stakeholders
-- Analyze data to identify opportunities and measure outcomes
-- Create user stories, workflows, and process diagrams
-- Validate that solutions meet business needs and acceptance criteria
-- Support change management and user adoption efforts
+- Elicit requirements and model workflows
+- Produce clear user stories and acceptance criteria
+- Validate requirements with stakeholders and PdM
+- Support testing by clarifying edge cases and business rules
 
 ### Typical Interactions
-- Works with **PdM** to translate vision into detailed requirements
-- Coordinates with **Stakeholders** to gather needs and validate solutions
-- Collaborates with **Developers** to clarify requirements and answer questions
-- Partners with **QA** to define acceptance criteria and test scenarios
-- Aligns with **PM** on project scope, timelines, and dependencies
+- With PdM: refine priorities and acceptance criteria
+- With Developers: clarify requirements and expected behavior
+- With QA: ensure test cases cover business scenarios
+- With PM/Stakeholders: communicate requirement changes and impacts
 
 ---
 
